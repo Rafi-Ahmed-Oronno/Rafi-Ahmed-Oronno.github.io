@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafi Ahmed - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 shadow-lg">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-500">Rafi Ahmed</a>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden focus:outline-none">
+                <svg class="w-8 h-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
+
+            <!-- Menu Items -->
+            <ul id="menu" class="hidden md:flex space-x-6 text-lg">
+                <li><a href="#hero" class="hover:text-blue-400">Home</a></li>
+                <li><a href="#about" class="hover:text-blue-400">About</a></li>
+                <li><a href="#experience" class="hover:text-blue-400">Work Experience</a></li>
+                <li><a href="#Skills" class="hover:text-blue-400">Skills</a></li>
+                <li><a href="#Contact" class="hover:text-blue-400">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Mobile Dropdown Menu -->
+        <ul id="mobile-menu" class="hidden bg-gray-700 text-center py-4 space-y-2 md:hidden">
+            <li><a href="#hero" class="block text-white hover:text-blue-400">Home</a></li>
+            <li><a href="#about" class="block text-white hover:text-blue-400">About</a></li>
+            <li><a href="#services" class="block text-white hover:text-blue-400">Services</a></li>
+            <li><a href="#contact" class="block text-white hover:text-blue-400">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero"
+        class="h-screen flex flex-col-reverse md:flex-row items-center justify-center bg-gray-900 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-gray-800 to-gray-900 opacity-80"></div>
+
+        <div class="relative z-10 flex flex-col-reverse md:flex-row items-center container mx-auto px-6 py-10">
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white mb-4">
+                    Hi, I'm <span class="text-blue-500">Rafi Ahmed</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-300 mb-6">.NET Developer | Airline APIs and OTA Systems | ERP |
+                    VoIP</p>
+                <a href="#about"
+                    class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">
+                    Learn More
+                </a>
+            </div>
+            <div class="w-full md:w-1/2 flex justify-center">
+                <img src="images/Rafi-removebg-preview.png" alt="Rafi Ahmed"
+                    class="w-2/3 sm:w-1/2 md:w-[400px] lg:w-[450px] rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-800">
+        <div class="container mx-auto text-center px-6">
+            <h2 class="text-4xl font-bold text-white mb-6">About Me</h2>
+            <p class="text-lg text-gray-300 leading-relaxed">
+                I am a passionate .NET developer with a strong specialization in the airline industry, particularly in
+                integrating Global Distribution Systems (GDS) and
+                New Distribution Capability (NDC)(17.3,21.3) platforms.
+                My journey began with a project that required real-time flight search, booking, and ticketing
+                integration, and I found it fascinating how these technologies power the aviation sector.
+            </p>
+            <p class="text-lg text-gray-300 leading-relaxed mt-4">
+                Over the years, I have worked with leading providers like Sabre, Amadeus, Travelport,
+                and direct airline APIs, including Emirates(NDC), OmanAir(NDC), Indigo(NDC), FlyHub, AirArabia,
+                US-Bangla, NovoAir
+                and Jazeera. I have also collaborated with over 15 aggregators worldwide,
+                such as PKFare, MystiFly, Verteil(NDC), NuFlights(NDC), XMLDubai, Airpaz, Riya, LY, TraveloMatrix and
+                AirIQ,
+                in addition to working with GDS systems and airline APIs from regions including China,
+                India, Dubai, and Indonesia. This experience has deepened my expertise in the domain, particularly in
+                B2B OTA platforms.
+            </p>
+            <p class="text-lg text-gray-300 leading-relaxed mt-4">
+                Notable projects I have worked on include FirstTrip, TripLover, TravelChamp, TakeTrip, and TakeOff,
+                where I contributed to creating seamless, efficient, and scalable systems for travel agencies and
+                corporate clients. The complexity and impact of this industry continue to motivate me to specialize
+                further, pushing the boundaries of innovation in the travel technology space.
+            </p>
+            <p class="text-lg text-gray-300 leading-relaxed mt-4">
+                In addition to my work in travel, I have also developed ERP systems for universities and corporations,
+                providing comprehensive solutions for managing organizational processes. Moreover, I have hands-on
+                experience in building VoIP calling systems, ensuring smooth and reliable communication for businesses
+                and customers.
+            </p>
+        </div>
+    </section>
+
+    <!-- experience Section -->
+    <section id="experience" class="py-20 bg-gray-900">
+        <div class="container mx-auto text-center px-6">
+            <h2 class="text-4xl font-bold text-white mb-10">Work Experience</h2>
+            <div class="grid md:grid-cols-3 gap-10">
+
+                <!-- Job 1: TechnoNext -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-500 mb-2">Software Engineer</h3>
+                    <p class="text-gray-300">TechnoNext (2023 - Present)</p>
+                    <p class="text-gray-400 mt-2">Currently building scalable software solutions and optimizing existing
+                        applications.</p>
+                    <p class="text-gray-400 mt-4"><strong>Key Contributions:</strong></p>
+                    <ul class="text-gray-300 list-disc pl-6">
+                        <li>Developing and optimizing OTA booking platforms with GDS, NDC, and direct airline APIs.</li>
+                        <li>Enhancing application performance and reducing processing time for large-scale airline data.
+                        </li>
+                        <li>Implementing post-sale features like refund, re-issue, and split PNR management.</li>
+                        <li>Integrating extra services (baggage, meals) and instant ticketing in flight booking systems.
+                        </li>
+                        <li>Collaborating with cross-functional teams to deliver scalable and efficient software
+                            solutions.</li>
+                    </ul>
+                    <button
+                        class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
+                        onclick="openModal('technonext')">See More</button>
+                    <p class="mt-4 text-gray-400">Visit the official <a href="https://technonext.com/" target="_blank"
+                            class="text-blue-400 hover:underline">TechnoNext website</a> for more information.</p>
+                    </a>
+                </div>
+
+                <!-- Job 2: InterCloud -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-500 mb-2">Software Engineer</h3>
+                    <p class="text-gray-300">InterCloud (2022 - 2023)</p>
+                    <p class="text-gray-400 mt-2">Delivered bug-free APIs, integrated payment systems, and provided
+                        backend data support for multiple calling apps.</p>
+                    <p class="text-gray-400 mt-4"><strong>Key Features:</strong></p>
+                    <ul class="text-gray-300 list-disc pl-6">
+                        <li>Developed and maintained bug-free APIs in .NET Core for multiple projects.</li>
+                        <li>Integrated domestic and international payment gateways (Stripe).</li>
+                        <li>Built backend services for calling apps (eSim Global, Brilliant Connect).</li>
+                        <li>Implemented fraud detection and balance management systems.</li>
+                        <li>Worked with JWT Authentication & Authorization for secure communications.</li>
+                    </ul>
+                    <button
+                        class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
+                        onclick="openModal('intercloud')">See More</button>
+                    <p class="mt-4 text-gray-400">Visit the official <a href="https://intercloud.com.bd/"
+                            target="_blank" class="text-blue-400 hover:underline">InterCloud website</a> for more
+                        information.</p>
+                </div>
+
+                <!-- Job 3: PrimeAsia University -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-500 mb-2">Software Engineer</h3>
+                    <p class="text-gray-300">PrimeAsia University (2021 - 2022)</p>
+                    <p class="text-gray-400 mt-2">Built an ERP system for online admissions, payments, and academic
+                        management.</p>
+                    <p class="text-gray-400 mt-4"><strong>Key Features:</strong></p>
+                    <ul class="text-gray-300 list-disc pl-6">
+                        <li>Designed and implemented ERP system architecture</li>
+                        <li>Integrated multiple payment gateways (Bkash, Nagad, SSL)</li>
+                        <li>Automated student admission and course registration</li>
+                        <li>Student advising and academic progress tracking</li>
+                        <li>Admin role-based access for management</li>
+                    </ul>
+                    <button
+                        class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
+                        onclick="openModal('primeasia')">See More</button>
+                    <p class="mt-4 text-gray-400">Visit the official <a href="https://primeasia.edu.bd/" target="_blank"
+                            class="text-blue-400 hover:underline">PrimeAsia University website</a> for more information.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for TechnoNext -->
+    <div id="technonext-modal"
+        class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-gray-800 p-6 rounded-lg w-3/4 md:w-1/2 text-white">
+            <h3 class="text-2xl font-bold mb-4">TechnoNext - Software Engineer (2023 - Present)</h3>
+            <p><strong>Key Contributions:</strong></p>
+            <ul class="list-disc pl-6">
+                <li>Led development of client-facing applications for OTA systems.</li>
+                <li>Integrated and optimized systems with GDS (Travelport, Amadeus, Sabre) and NDC providers (Emirates,
+                    Qatar, Oman Air).</li>
+                <li>Developed core features like Flight Search, AirShopping, Price/FlightPrice Revalidation, and Extra
+                    Services (Meals, Baggage).</li>
+                <li>Implemented Booking, Ticketing, and Prime Booking for seamless customer experience.</li>
+                <li>Worked on Post-Sale functionalities like PNR Split, Refund, and Re-Issue for
+                    airlines,GDS,NDC,Aggregators.</li>
+            </ul>
+
+            <h3 class="mt-6 text-xl font-bold">Expertise & Technologies:</h3>
+            <p class="text-gray-300 mt-2">As an expert in OTA development, I have extensive experience in integrating
+                major Global Distribution Systems (GDS) and New Distribution Capability (NDC) technologies:</p>
+            <ul class="text-gray-300 list-disc pl-6 mt-2">
+                <li><strong>GDS:</strong> TravelPort, Amadeus, Sabre</li>
+                <li><strong>OTA Technologies:</strong> Search/AirShopping, Price Revalidation, Extra Service (Meals,
+                    Baggage), Prime Booking/Instant Ticket</li>
+                <li><strong>Airlines:</strong> US-Bangla, NovoAir, Jazeera, AirArabia, Indigo, Fly Dubai</li>
+                <li><strong>NDC:</strong> Emirates (EK), Oman Air (WY), Singapore Airlines (SQ), Indigo(6E), Verteil,
+                    NuFlights</li>
+                <li><strong>Aggregators:</strong> MystiFly, Verteil, PkFare, Riya, Airpaz, TravelOMatrix, BDFare, LY
+                </li>
+            </ul>
+
+            <h3 class="mt-6 text-xl font-bold">Post-Sale Solutions:</h3>
+            <ul class="text-gray-300 list-disc pl-6 mt-2">
+                <li>Handled split PNR, refund, and re-issue processes for post-sale airline services.</li>
+            </ul>
+
+            <button onclick="closeModal('technonext')"
+                class="mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">Close</button>
+        </div>
+    </div>
+
+    <!-- Modal for InterCloud -->
+    <div id="intercloud-modal"
+        class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-gray-800 p-6 rounded-lg w-3/4 md:w-1/2 text-white">
+            <h3 class="text-2xl font-bold mb-4">InterCloud - Software Engineer (2022 - 2023)</h3>
+            <p><strong>Key Contributions:</strong></p>
+            <ul class="list-disc pl-6">
+                <li>Developed and maintained APIs in .NET Core for multiple projects.</li>
+                <li>Integrated multiple payment gateways (domestic & international, including Stripe).</li>
+                <li>Worked on promotional SMS ERP using Angular 13 and .NET 6.</li>
+                <li>Designed and managed backend services for calling apps like eSim Global & Brilliant Connect.</li>
+                <li>Handled fraud detection, agent modules, and balance management.</li>
+            </ul>
+
+            <div class="mt-6">
+                <h3 class="text-xl font-bold text-blue-500">eSim Global</h3>
+                <p class="text-gray-300">Backend support for data, API creation & modification, fraud detection, and
+                    balance management.</p>
+                <a href="https://esimglobal.net/" target="_blank" class="text-blue-400 hover:underline">Visit eSim
+                    Global</a>
+            </div>
+
+            <div class="mt-6">
+                <h3 class="text-xl font-bold text-blue-500">Brilliant Connect</h3>
+                <p class="text-gray-300">Provided backend support, API creation, fraud detection, and balance handling
+                    for the calling app.</p>
+                <a href="https://app.brilliant.com.bd/" target="_blank" class="text-blue-400 hover:underline">Visit
+                    Brilliant Connect</a>
+            </div>
+
+            <button onclick="closeModal('intercloud')"
+                class="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">Close</button>
+        </div>
+    </div>
+
+    <!-- Modal for PrimeAsia -->
+    <div id="primeasia-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-gray-800 p-6 rounded-lg w-3/4 md:w-1/2 text-white">
+            <h3 class="text-2xl font-bold mb-4">PrimeAsia University - Software Engineer (2021 - 2022)</h3>
+
+            <p><strong>Key Contributions:</strong></p>
+            <ul class="list-disc pl-6 mb-4">
+                <li>Designed and implemented the ERP system architecture.</li>
+                <li>Integrated payment gateways for seamless transactions.</li>
+                <li>Ensured data security and optimized user authentication processes.</li>
+            </ul>
+
+            <p><strong>Additional Features Developed:</strong></p>
+            <ul class="list-disc pl-6 mb-4">
+                <li><strong>Online Admit Card Generation:</strong> Automated generation of admit cards for students
+                    based on exam schedules.</li>
+                <li><strong>Online Admission System:</strong> Full automation of the admission process, including fee
+                    calculation, document verification, and student ID generation.</li>
+                <li><strong>Payment Gateway Integration:</strong> Integration of multiple payment gateways for seamless
+                    fee payments, including Bkash, Nagad, and SSL.</li>
+                <li><strong>Student Advising System:</strong> Automated suggestions for courses based on the student’s
+                    academic progress and advisor input.</li>
+                <li><strong>Accounts Management:</strong> Comprehensive module for managing student accounts, dues, and
+                    transaction histories.</li>
+                <li><strong>Course Registration:</strong> Dynamic course registration with real-time GPA, Grade, and
+                    CGPA calculations for each student.</li>
+                <li><strong>Student Due Calculation:</strong> Automated calculation and display of dues based on student
+                    fees and payments made.</li>
+                <li><strong>Admin View (Role-based):</strong> Admin access with role-based views for managing student
+                    records, payments, and course registrations.</li>
+                <li><strong>Teacher Assignment & Course Availability:</strong> Assignment of teachers to courses and
+                    real-time course availability management.</li>
+                <li><strong>Section Creation:</strong> Admins can create and manage sections for courses, allocate
+                    seats, and manage student enrollments.</li>
+                <li><strong>Student Information Insert & Update:</strong> Allows admins to add or update student
+                    personal and academic records efficiently.</li>
+                <li><strong>Student Due Management:</strong> Track and manage student dues for a smooth, automated
+                    accounting process.</li>
+            </ul>
+
+            <!-- Close Button -->
+            <button onclick="closeModal('primeasia')"
+                class="mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">Close</button>
+        </div>
+    </div>
+
+    <!-- Skills & Technologies Section -->
+    <section id="Skills" class="py-20 bg-gray-800">
+        <div class="container mx-auto text-center px-6">
+            <h2 class="text-4xl font-bold text-white mb-10">Skills & Technologies</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                <!-- .NET & C# -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-500 mb-2">.NET & C#</h3>
+                    <p class="text-gray-300">.NET, .NET Core (3.1-8), C# for backend development and API design.</p>
+                </div>
+
+                <!-- Frontend Technologies -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-500 mb-2">Frontend Development</h3>
+                    <p class="text-gray-300">Angular 12+, ReactJS, JavaScript, jQuery, and Ajax for dynamic and
+                        interactive web applications.</p>
+                </div>
+
+                <!-- API Integration -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-500 mb-2">API Integration</h3>
+                    <p class="text-gray-300">Experience with Rest, SOAP, XML, JSON, and JWT for secure API
+                        communication.</p>
+                </div>
+
+                <!-- Database & SQL -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-500 mb-2">Database & SQL</h3>
+                    <p class="text-gray-300">MSSQL, MongoDB, SQL Stored Procedures, EF/EF Core, LINQ for efficient
+                        database management and ORM solutions.</p>
+                </div>
+
+                <!-- Cloud & S3 -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-500 mb-2">Cloud & S3</h3>
+                    <p class="text-gray-300">Experience with cloud technologies like Amazon S3 for file storage and
+                        cloud deployments.</p>
+                </div>
+
+                <!-- Payment Gateways -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-500 mb-2">Payment Gateways</h3>
+                    <p class="text-gray-300">Integrated payment gateways including Bkash, Nagad, SSL, SurjoPay, and
+                        Stripe for seamless transactions.</p>
+                </div>
+
+                <!-- Responsive Design & Frameworks -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-500 mb-2">Responsive Design & Frameworks</h3>
+                    <p class="text-gray-300">Full responsive web design with Bootstrap and other front-end frameworks
+                        for mobile-first experiences.</p>
+                </div>
+
+                <!-- Development Tools & Version Control -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-500 mb-2">Development Tools & Version Control</h3>
+                    <p class="text-gray-300">Experienced with GitHub, SVN, Visual Studio (2017-2022), and version
+                        control systems for collaboration and project management.</p>
+                </div>
+
+                <!-- SOLID Principles & Problem Solving -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-500 mb-2">SOLID Principles & Problem Solving</h3>
+                    <p class="text-gray-300">Applied SOLID principles for clean, maintainable code and effective
+                        problem-solving techniques in software development.</p>
+                </div>
+
+                <!-- Team Communication -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-500 mb-2">Team Communication</h3>
+                    <p class="text-gray-300">Strong team communication skills with a collaborative approach to
+                        problem-solving and project delivery.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="Contact" class="py-20 bg-gray-800">
+        <div class="container mx-auto text-center px-6">
+            <h2 class="text-4xl font-bold text-white mb-6">Contact Me</h2>
+            <p class="text-lg text-gray-300 mb-6">Feel free to reach out for collaborations or inquiries.</p>
+    
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <!-- Email Button -->
+                <a href="mailto:rafi.ahmed2446@gmail.com"
+                    class="px-6 py-3 text-lg font-semibold bg-blue-600 text-white rounded-lg shadow-lg 
+                           hover:bg-blue-700 transition duration-300 flex items-center gap-2">
+                    📧 rafi.ahmed2446@gmail.com
+                </a>
+    
+                <!-- GitHub Button -->
+                <a href="https://github.com/Rafi-Ahmed-Oronno" target="_blank"
+                    class="px-6 py-3 text-lg font-semibold bg-gray-700 text-white rounded-lg shadow-lg 
+                           hover:bg-gray-600 transition duration-300 flex items-center gap-2">
+                    🔗 GitHub
+                </a>
+    
+                <!-- LinkedIn Button -->
+                <a href="https://www.linkedin.com/in/rafi-a-a80061105/" target="_blank"
+                    class="px-6 py-3 text-lg font-semibold bg-blue-500 text-white rounded-lg shadow-lg 
+                           hover:bg-blue-600 transition duration-300 flex items-center gap-2">
+                    🔗 LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-gray-900 text-center text-gray-400">
+        <p>&copy; 2025 Rafi Ahmed. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+        function openModal(company) {
+            const modal = document.getElementById(`${company}-modal`);
+            modal.classList.remove('hidden');
+        }
+
+        function closeModal(company) {
+            const modal = document.getElementById(`${company}-modal`);
+            modal.classList.add('hidden');
+        }
+        const menuBtn = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        menuBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        });
+    </script>
+
+</body>
+
+</html>
