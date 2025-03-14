@@ -187,7 +187,7 @@
     <!-- Modal for TechnoNext -->
     <div id="technonext-modal"
         class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-        <div class="bg-gray-800 p-6 rounded-lg w-3/4 md:w-1/2 text-white">
+        <div class="bg-gray-800 p-6 rounded-lg w-11/12 max-w-lg text-white overflow-y-auto max-h-screen">
             <h3 class="text-2xl font-bold mb-4">TechnoNext - Software Engineer (2023 - Present)</h3>
             <p><strong>Key Contributions:</strong></p>
             <ul class="list-disc pl-6">
@@ -198,7 +198,7 @@
                     Services (Meals, Baggage).</li>
                 <li>Implemented Booking, Ticketing, and Prime Booking for seamless customer experience.</li>
                 <li>Worked on Post-Sale functionalities like PNR Split, Refund, and Re-Issue for
-                    airlines,GDS,NDC,Aggregators.</li>
+                    airlines, GDS, NDC, Aggregators.</li>
             </ul>
 
             <h3 class="mt-6 text-xl font-bold">Expertise & Technologies:</h3>
@@ -220,15 +220,18 @@
                 <li>Handled split PNR, refund, and re-issue processes for post-sale airline services.</li>
             </ul>
 
-            <button onclick="closeModal('technonext')"
-                class="mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">Close</button>
+            <div class="mt-6 flex justify-center">
+                <button onclick="closeModal('technonext')" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">
+                    Close
+                </button>
+            </div>
         </div>
     </div>
 
     <!-- Modal for InterCloud -->
     <div id="intercloud-modal"
         class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-        <div class="bg-gray-800 p-6 rounded-lg w-3/4 md:w-1/2 text-white">
+        <div class="bg-gray-800 p-6 rounded-lg w-11/12 max-w-lg text-white">
             <h3 class="text-2xl font-bold mb-4">InterCloud - Software Engineer (2022 - 2023)</h3>
             <p><strong>Key Contributions:</strong></p>
             <ul class="list-disc pl-6">
@@ -255,57 +258,50 @@
                     Brilliant Connect</a>
             </div>
 
-            <button onclick="closeModal('intercloud')"
-                class="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">Close</button>
+            <div class="mt-6 flex justify-center">
+                <button onclick="closeModal('intercloud')" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">
+                    Close
+                </button>
+            </div>
         </div>
     </div>
 
     <!-- Modal for PrimeAsia -->
     <div id="primeasia-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-        <div class="bg-gray-800 p-6 rounded-lg w-3/4 md:w-1/2 text-white">
+        <div class="bg-gray-800 p-6 rounded-lg w-11/12 max-w-2xl text-white overflow-y-auto max-h-screen shadow-lg">
             <h3 class="text-2xl font-bold mb-4">PrimeAsia University - Software Engineer (2021 - 2022)</h3>
-
-            <p><strong>Key Contributions:</strong></p>
-            <ul class="list-disc pl-6 mb-4">
+    
+            <p class="text-lg font-semibold mb-2">Key Contributions:</p>
+            <ul class="list-disc pl-6 space-y-2">
                 <li>Designed and implemented the ERP system architecture.</li>
                 <li>Integrated payment gateways for seamless transactions.</li>
                 <li>Ensured data security and optimized user authentication processes.</li>
             </ul>
-
-            <p><strong>Additional Features Developed:</strong></p>
-            <ul class="list-disc pl-6 mb-4">
-                <li><strong>Online Admit Card Generation:</strong> Automated generation of admit cards for students
-                    based on exam schedules.</li>
-                <li><strong>Online Admission System:</strong> Full automation of the admission process, including fee
-                    calculation, document verification, and student ID generation.</li>
-                <li><strong>Payment Gateway Integration:</strong> Integration of multiple payment gateways for seamless
-                    fee payments, including Bkash, Nagad, and SSL.</li>
-                <li><strong>Student Advising System:</strong> Automated suggestions for courses based on the student’s
-                    academic progress and advisor input.</li>
-                <li><strong>Accounts Management:</strong> Comprehensive module for managing student accounts, dues, and
-                    transaction histories.</li>
-                <li><strong>Course Registration:</strong> Dynamic course registration with real-time GPA, Grade, and
-                    CGPA calculations for each student.</li>
-                <li><strong>Student Due Calculation:</strong> Automated calculation and display of dues based on student
-                    fees and payments made.</li>
-                <li><strong>Admin View (Role-based):</strong> Admin access with role-based views for managing student
-                    records, payments, and course registrations.</li>
-                <li><strong>Teacher Assignment & Course Availability:</strong> Assignment of teachers to courses and
-                    real-time course availability management.</li>
-                <li><strong>Section Creation:</strong> Admins can create and manage sections for courses, allocate
-                    seats, and manage student enrollments.</li>
-                <li><strong>Student Information Insert & Update:</strong> Allows admins to add or update student
-                    personal and academic records efficiently.</li>
-                <li><strong>Student Due Management:</strong> Track and manage student dues for a smooth, automated
-                    accounting process.</li>
+    
+            <p class="text-lg font-semibold mt-4 mb-2">Additional Features Developed:</p>
+            <ul class="list-disc pl-6 space-y-2">
+                <li><strong>Online Admit Card Generation:</strong> Automated admit card generation based on exam schedules.</li>
+                <li><strong>Online Admission System:</strong> Automated admission, fee calculation, document verification, and ID generation.</li>
+                <li><strong>Payment Gateway Integration:</strong> Integrated Bkash, Nagad, and SSL for seamless payments.</li>
+                <li><strong>Student Advising System:</strong> Course suggestions based on academic progress.</li>
+                <li><strong>Accounts Management:</strong> Managing student accounts, dues, and transactions.</li>
+                <li><strong>Course Registration:</strong> Dynamic registration with GPA, Grade, and CGPA calculations.</li>
+                <li><strong>Student Due Calculation:</strong> Automated due calculations and fee tracking.</li>
+                <li><strong>Admin View (Role-based):</strong> Role-based access for managing records, payments, and courses.</li>
+                <li><strong>Teacher Assignment:</strong> Assign teachers to courses and manage real-time course availability.</li>
+                <li><strong>Section Creation:</strong> Admins can create and allocate seats for student enrollments.</li>
+                <li><strong>Student Info Management:</strong> Add/update student personal and academic records efficiently.</li>
+                <li><strong>Student Due Management:</strong> Automated tracking of student dues for smooth accounting.</li>
             </ul>
-
+    
             <!-- Close Button -->
-            <button onclick="closeModal('primeasia')"
-                class="mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">Close</button>
+            <div class="mt-6 flex justify-center">
+                <button onclick="closeModal('primeasia')" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">
+                    Close
+                </button>
+            </div>
         </div>
     </div>
-
     <!-- Skills & Technologies Section -->
     <section id="Skills" class="py-20 bg-gray-800">
         <div class="container mx-auto text-center px-6">
